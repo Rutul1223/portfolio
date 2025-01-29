@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
@@ -16,32 +16,52 @@ const ContactLeft = () => {
           Full Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          Feel free to reach out for projects, collaborations, or just to
+          connect! You can contact me via the links below or send an email. I
+          look forward to hearing from you!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+91 9173494667</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">Rutulprj@gmail.com</span>
+          Email:{" "}
+          <span className="text-lightText">prajapatirutul1223@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaInstagram />
-          </span>
-          <span className="bannerIcon">
-            <FaGithub />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <a
+            href="https://www.instagram.com/rutul_1223/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaInstagram />
+            </span>
+          </a>
+          <a
+            href="https://github.com/Rutul1223"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rutul-prajapati-574125236/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ContactLeft
+export default ContactLeft;
