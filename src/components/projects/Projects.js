@@ -47,12 +47,6 @@ const Projects = () => {
           githubLink = "https://github.com/Rutul1223/Shopping-Center"
         />
         <ProjectsCard
-          title="SOCIAL MEDIA APP"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
           title="YOUTUBE CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
