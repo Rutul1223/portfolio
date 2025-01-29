@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import { logo } from "../../assets/index";
 
 const Footer = () => {
   return (
@@ -8,15 +8,33 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaInstagram />
-          </span>
-          <span className="bannerIcon">
-            <FaGithub />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <a
+            href="https://www.instagram.com/rutul_1223/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaInstagram />
+            </span>
+          </a>
+          <a
+            href="https://github.com/Rutul1223"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rutul-prajapati-574125236/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
         </div>
       </div>
       <div className="w-full h-full">
@@ -132,6 +150,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
