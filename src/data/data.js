@@ -1,42 +1,41 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaCloud, FaServer, FaDatabase} from "react-icons/fa";
+import { SiLaravel, SiNodedotjs } from "react-icons/si";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "API Development",
+    des: "Building and optimizing RESTful APIs for seamless communication between front-end and back-end systems, ensuring high performance and reliability."
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <FaDatabase />,
+    title: "Database Management",
+    des: "Designing and managing efficient databases using MySQL, MongoDB, or other databases to ensure fast data retrieval and storage."
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <SiNodedotjs />,
+    title: "Node.js Backend",
+    des: "Creating scalable and efficient server-side applications using Node.js, leveraging asynchronous programming for optimal performance."
   },
   {
     id: 4,
-    icon: <FaMobile />,
-    title: "Mobile Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <FaServer />,
+    title: "Server Management",
+    des: "Setting up, configuring, and maintaining servers to ensure optimal performance, security, and scalability for web applications."
   },
   {
     id: 5,
-    icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <SiLaravel />,
+    title: "Laravel Framework",
+    des: "Developing secure and maintainable web applications using the Laravel PHP framework, adhering to modern development practices."
   },
   {
     id: 6,
-    icon: <FaGlobe />,
-    title: "Hosting Websites",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
+    icon: <FaCloud />,
+    title: "Cloud Solutions",
+    des: "Implementing cloud-based solutions and services (AWS, Google Cloud, etc.) to scale applications and manage resources effectively."
+  }
 ];
