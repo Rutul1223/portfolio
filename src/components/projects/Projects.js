@@ -44,7 +44,8 @@ const Projects = () => {
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectFour}
-          githubLink = "https://github.com/Rutul1223/Shopping-Center"
+          projectLink = "https://rabbit-ecomm-usb8.vercel.app/"
+          githubLink = "https://github.com/Rutul1223/Rabbit-Ecomm"
         />
         <ProjectsCard
           title="YOUTUBE CLONE"
