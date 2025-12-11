@@ -18,8 +18,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Food Delivery Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="A full-stack food ordering web application built with Laravel, featuring menu browsing, dynamic cart management, and streamlined order workflows. Designed with a responsive, user-centric interface for seamless cross-device engagement. Demonstrates strong backend architecture, clean routing, and scalable project structure."
           src={projectOne}
           githubLink = "https://github.com/Rutul1223/food-app"
           
